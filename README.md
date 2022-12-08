@@ -1,6 +1,6 @@
 # Dashboard Project
 ---
-Capstone Project: Data Pipeline Project for Data Engineering Course
+Capstone Project: An end-to-end data pipeline for Data Engineering Course - [link](https://github.com/DataTalksClub/data-engineering-zoomcamp)
 
 ## Overview
 1. Select a Dataset (see [examples](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project/datasets.md))
@@ -15,21 +15,32 @@ Select a dataset that you're interested in (see [examples](https://github.com/Da
 
 ## Pipeline to DataLake
 Create a pipeline for processing this dataset and putting it to a datalake
+_Technologies_:
+> Orchestration: Airflow
+> Data Lake: ...
+
+---
 
 ## Pipeline to Data Warehouse
 Create a pipeline for moving the data from the lake to a data warehouse
+_Technologies_:
+> Orchestration: Airflow
+> Data Warehouse: ...
+
+---
 
 ## Transform the Data
 Transform the data in the data warehouse: prepare it for the dashboard
+_Technologies_:
+ > dbt
 
 ## Create a Dashboard
-You can build a dashboard with any of the tools shown in the course (Data Studio or Metabase) or any other BI tool of your choice. If you do use another tool, please specify and make sure that the dashboard is somehow accessible to your peers.
 
-Your dashboard should contain at least two tiles, we suggest you include:
+Project dashboard contains two tiles:
 1. graph that shows the distribution of some categorical data
 1. graph that shows the distribution of the data across a temporal line
 
-Make sure that your graph is clear to understand by adding references and titles.
+NOTE: Add references and titles.
 
 ---
 
