@@ -2,37 +2,61 @@
 ---
 Capstone Project: An end-to-end data pipeline for Data Engineering Course - [link](https://github.com/DataTalksClub/data-engineering-zoomcamp)
 
-## Overview
-1. Select a Dataset (see [examples](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project/datasets.md))
-1. Pipeline to DataLake
-1. Pipeline to Data Warehouse
-1. Transform the Data
-1. Create a Dashboard
+---
 
-## Select a Dataset
+# Project Overview
+- [ ] [Select a Dataset](#select-a-dataset)
+- [ ] [Pipeline to DataLake](#pipeline-to-data-lake)
+- [ ] [Pipeline to Data Warehouse](#pipeline-to-data-warehouse)
+- [ ] [Transform the Data](#transform-the-data)
+- [ ] [Create a Dashboard](#create-a-dashboard)
+
+---
+
+# Select a Dataset
 Select a dataset that you're interested in (see [examples](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project/datasets.md))
+> **_Choices_**: 
+> - ncaa games
+> - cloud to ground lightning
+---
 
+# Pipeline to Data Lake
+Create a pipeline for processing this dataset and putting it to a data lake.
+### Technologies
+> Orchestration
+> - [ ] Airflow
+> - [ ] Luigi
+> - [ ] Beam
 
-## Pipeline to DataLake
-Create a pipeline for processing this dataset and putting it to a datalake
-_Technologies_:
-> Orchestration: Airflow
-> Data Lake: ...
+> Data Lake
+> - [ ] ...
 
 ---
 
 ## Pipeline to Data Warehouse
 Create a pipeline for moving the data from the lake to a data warehouse
-_Technologies_:
-> Orchestration: Airflow
-> Data Warehouse: ...
+### Technologies
+> Orchestration
+> - [ ] Airflow
+> - [ ] Luigi
+> - [ ] Beam
+
+> Data Warehouse
+> - [ ] Snowflake
+> - [ ] Synapse Analytics
+> - [ ] ...
 
 ---
 
 ## Transform the Data
 Transform the data in the data warehouse: prepare it for the dashboard
-_Technologies_:
- > dbt
+### Technologies
+> Transformation
+> - [ ] dbt
+> - [ ] spark
+> - [ ] ...
+
+---
 
 ## Create a Dashboard
 

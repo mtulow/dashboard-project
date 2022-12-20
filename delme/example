@@ -1,0 +1,10 @@
+# retrieve the resource id
+az storage account show \
+--resource-group '<your-resource-group-name>'\
+--name '<your-storage-account-name>' \
+--query id
+
+# 
+az role assignment create --assignee "<user@domain>" \
+    --role "Storage Blob Data Contributor" \
+    --scope "<your-resource-id>"
